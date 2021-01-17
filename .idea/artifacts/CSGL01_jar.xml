@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="CSGL01:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CSGL01_jar</output-path>
+    <root id="archive" name="CSGL01.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/FRAM/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="FRAM" />
+      <element id="module-output" name="CSGL01" />
+      <element id="extracted-dir" path="C:/GYKU/Java高级编程/SQL包/mysql-connector-java-5.1.46.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

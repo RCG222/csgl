@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="NewProduct">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <preferredSize width="500" height="400"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="5df85" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties>
+          <preferredSize width="0" height="50"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="af67e" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="West"/>
+            <properties>
+              <background color="-16514321"/>
+              <preferredSize width="300" height="0"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="c7642" class="javax.swing.JLabel">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <font size="17" style="1"/>
+                  <foreground color="-9504906"/>
+                  <text value="请输入完整信息，否则可能添加失败"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="199aa" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="7587c" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="West"/>
+                <properties>
+                  <preferredSize width="100" height="0"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="83a85" class="javax.swing.JButton" binding="添加Button" default-binding="true">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <background color="-15985654"/>
+                      <contentAreaFilled value="true"/>
+                      <defaultCapable value="true"/>
+                      <focusPainted value="false"/>
+                      <font size="24" style="1"/>
+                      <foreground color="-517"/>
+                      <hideActionText value="true"/>
+                      <text value="添加"/>
+                    </properties>
+                  </component>
+                  <grid id="a3e0f" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="North"/>
+                    <properties>
+                      <background color="-16514321"/>
+                      <preferredSize width="0" height="5"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="cd228" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="South"/>
+                    <properties>
+                      <background color="-16514321"/>
+                      <preferredSize width="0" height="5"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="e2e" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="East"/>
+                    <properties>
+                      <background color="-16514321"/>
+                      <preferredSize width="5" height="0"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="38398" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="West"/>
+                    <properties>
+                      <background color="-16514321"/>
+                      <preferredSize width="5" height="0"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="f62ea" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="Center"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="e9629" class="javax.swing.JButton" binding="取消Button" default-binding="true">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <background color="-15985654"/>
+                      <focusPainted value="false"/>
+                      <font size="24" style="1"/>
+                      <foreground color="-517"/>
+                      <text value="取消"/>
+                    </properties>
+                  </component>
+                  <grid id="6273" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="North"/>
+                    <properties>
+                      <background color="-16514321"/>
+                      <preferredSize width="0" height="5"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="25c78" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="East"/>
+                    <properties>
+                      <background color="-16514321"/>
+                      <preferredSize width="5" height="0"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="88189" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="South"/>
+                    <properties>
+                      <background color="-16514321"/>
+                      <preferredSize width="0" height="5"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="4c65c" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="West"/>
+                    <properties>
+                      <background color="-16514321"/>
+                      <preferredSize width="5" height="0"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="f0ba1" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-16514321"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="505b" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="North"/>
+            <properties>
+              <background color="-16514321"/>
+              <preferredSize width="0" height="89"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="39355" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="West"/>
+                <properties>
+                  <background color="-16514321"/>
+                  <preferredSize width="250" height="0"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="2bdbc" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="North"/>
+                    <properties>
+                      <background color="-16514321"/>
+                      <preferredSize width="0" height="27"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="42ef8" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="South"/>
+                    <properties>
+                      <background color="-16514321"/>
+                      <preferredSize width="0" height="27"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="4f8b1" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <background color="-16514321"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="354ff" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <grid id="a311c" layout-manager="BorderLayout" hgap="0" vgap="0">
+                        <constraints border-constraint="West"/>
+                        <properties>
+                          <background color="-16514321"/>
+                          <preferredSize width="100" height="0"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="b8a2a" class="javax.swing.JLabel">
+                            <constraints border-constraint="Center"/>
+                            <properties>
+                              <font size="18" style="1"/>
+                              <foreground color="-517"/>
+                              <text value="   货品名称"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="48553" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <background color="-16514321"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="a8cbb" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="North"/>
+                    <properties>
+                      <background color="-16514321"/>
+                      <preferredSize width="0" height="27"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="fc7c0" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="South"/>
+                    <properties>
+                      <background color="-16514321"/>
+                      <preferredSize width="0" height="27"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="8e999" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="West"/>
+                    <properties>
+                      <background color="-16514321"/>
+                      <preferredSize width="100" height="0"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="bf4ab" class="javax.swing.JLabel">
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <font size="18" style="1"/>
+                          <foreground color="-517"/>
+                          <text value="   货品规格"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <component id="d8454" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+                    <constraints border-constraint="Center"/>
+                    <properties/>
+                  </component>
+                  <grid id="14e56" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="East"/>
+                    <properties>
+                      <background color="-16514321"/>
+                      <preferredSize width="10" height="0"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="de4cd" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="South"/>
+            <properties>
+              <background color="-16514321"/>
+              <preferredSize width="0" height="89"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="fc0fb" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="West"/>
+                <properties>
+                  <background color="-16514321"/>
+                  <preferredSize width="250" height="0"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="29ad7" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="North"/>
+                    <properties>
+                      <background color="-16514321"/>
+                      <preferredSize width="0" height="27"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="64cc2" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="South"/>
+                    <properties>
+                      <background color="-16514321"/>
+                      <preferredSize width="0" height="27"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="322f6" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="West"/>
+                    <properties>
+                      <background color="-16514321"/>
+                      <preferredSize width="100" height="0"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="f67" class="javax.swing.JLabel">
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <font size="18" style="1"/>
+                          <foreground color="-517"/>
+                          <text value="   促  销  价"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <component id="8e40a" class="javax.swing.JTextField" binding="textField8" default-binding="true">
+                    <constraints border-constraint="Center"/>
+                    <properties/>
+                  </component>
+                </children>
+              </grid>
+              <grid id="13926" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <background color="-16514321"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </grid>
+          <grid id="77378" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-16514321"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="a1211" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="North"/>
+                <properties>
+                  <background color="-16514321"/>
+                  <preferredSize width="0" height="89"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="bfd57" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="West"/>
+                    <properties>
+                      <background color="-16514321"/>
+                      <preferredSize width="250" height="0"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="a52ef" layout-manager="BorderLayout" hgap="0" vgap="0">
+                        <constraints border-constraint="North"/>
+                        <properties>
+                          <background color="-16514321"/>
+                          <preferredSize width="0" height="27"/>
+                        </properties>
+                        <border type="none"/>
+                        <children/>
+                      </grid>
+                      <grid id="ddfdb" layout-manager="BorderLayout" hgap="0" vgap="0">
+                        <constraints border-constraint="South"/>
+                        <properties>
+                          <background color="-16514321"/>
+                          <preferredSize width="0" height="27"/>
+                        </properties>
+                        <border type="none"/>
+                        <children/>
+                      </grid>
+                      <grid id="91ed3" layout-manager="BorderLayout" hgap="0" vgap="0">
+                        <constraints border-constraint="West"/>
+                        <properties>
+                          <background color="-16514321"/>
+                          <preferredSize width="100" height="0"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="a0e50" class="javax.swing.JLabel">
+                            <constraints border-constraint="Center"/>
+                            <properties>
+                              <font size="18" style="1"/>
+                              <foreground color="-517"/>
+                              <text value="   货品条码"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <component id="a7b4a" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+                        <constraints border-constraint="Center"/>
+                        <properties/>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="e6f34" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <background color="-16514321"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="faf2f" layout-manager="BorderLayout" hgap="0" vgap="0">
+                        <constraints border-constraint="North"/>
+                        <properties>
+                          <background color="-16514321"/>
+                          <preferredSize width="0" height="27"/>
+                        </properties>
+                        <border type="none"/>
+                        <children/>
+                      </grid>
+                      <grid id="8edcb" layout-manager="BorderLayout" hgap="0" vgap="0">
+                        <constraints border-constraint="South"/>
+                        <properties>
+                          <background color="-16514321"/>
+                          <preferredSize width="0" height="27"/>
+                        </properties>
+                        <border type="none"/>
+                        <children/>
+                      </grid>
+                      <grid id="4c701" layout-manager="BorderLayout" hgap="0" vgap="0">
+                        <constraints border-constraint="West"/>
+                        <properties>
+                          <background color="-16514321"/>
+                          <preferredSize width="100" height="0"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="643c8" class="javax.swing.JLabel">
+                            <constraints border-constraint="Center"/>
+                            <properties>
+                              <font size="18" style="1"/>
+                              <foreground color="-517"/>
+                              <text value="   计量单位"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <component id="615c9" class="javax.swing.JTextField" binding="textField4" default-binding="true">
+                        <constraints border-constraint="Center"/>
+                        <properties/>
+                      </component>
+                      <grid id="d943" layout-manager="BorderLayout" hgap="0" vgap="0">
+                        <constraints border-constraint="East"/>
+                        <properties>
+                          <background color="-16514321"/>
+                          <preferredSize width="10" height="0"/>
+                        </properties>
+                        <border type="none"/>
+                        <children/>
+                      </grid>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="24c43" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <background color="-16514321"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="d9f4a" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="West"/>
+                    <properties>
+                      <background color="-16514321"/>
+                      <preferredSize width="250" height="0"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="ce154" layout-manager="BorderLayout" hgap="0" vgap="0">
+                        <constraints border-constraint="North"/>
+                        <properties>
+                          <background color="-16514321"/>
+                          <preferredSize width="0" height="27"/>
+                        </properties>
+                        <border type="none"/>
+                        <children/>
+                      </grid>
+                      <grid id="a1caa" layout-manager="BorderLayout" hgap="0" vgap="0">
+                        <constraints border-constraint="South"/>
+                        <properties>
+                          <background color="-16514321"/>
+                          <preferredSize width="0" height="27"/>
+                        </properties>
+                        <border type="none"/>
+                        <children/>
+                      </grid>
+                      <grid id="965a7" layout-manager="BorderLayout" hgap="0" vgap="0">
+                        <constraints border-constraint="West"/>
+                        <properties>
+                          <background color="-16514321"/>
+                          <preferredSize width="100" height="0"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="7c525" class="javax.swing.JLabel">
+                            <constraints border-constraint="Center"/>
+                            <properties>
+                              <font size="18" style="1"/>
+                              <foreground color="-517"/>
+                              <text value="   名称缩写"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <component id="fab3c" class="javax.swing.JTextField" binding="textField7" default-binding="true">
+                        <constraints border-constraint="Center"/>
+                        <properties/>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="aa786" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <background color="-16514321"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="d7c2f" layout-manager="BorderLayout" hgap="0" vgap="0">
+                        <constraints border-constraint="North"/>
+                        <properties>
+                          <background color="-16514321"/>
+                          <preferredSize width="0" height="27"/>
+                        </properties>
+                        <border type="none"/>
+                        <children/>
+                      </grid>
+                      <grid id="fea93" layout-manager="BorderLayout" hgap="0" vgap="0">
+                        <constraints border-constraint="South"/>
+                        <properties>
+                          <background color="-16514321"/>
+                          <preferredSize width="0" height="27"/>
+                        </properties>
+                        <border type="none"/>
+                        <children/>
+                      </grid>
+                      <grid id="41ebb" layout-manager="BorderLayout" hgap="0" vgap="0">
+                        <constraints border-constraint="West"/>
+                        <properties>
+                          <background color="-16514321"/>
+                          <preferredSize width="100" height="0"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="d7dc8" class="javax.swing.JLabel">
+                            <constraints border-constraint="Center"/>
+                            <properties>
+                              <font size="18" style="1"/>
+                              <foreground color="-517"/>
+                              <text value="   零  售  价"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <component id="18f73" class="javax.swing.JTextField" binding="textField5" default-binding="true">
+                        <constraints border-constraint="Center"/>
+                        <properties/>
+                      </component>
+                      <grid id="110e9" layout-manager="BorderLayout" hgap="0" vgap="0">
+                        <constraints border-constraint="East"/>
+                        <properties>
+                          <background color="-16514321"/>
+                          <preferredSize width="10" height="0"/>
+                        </properties>
+                        <border type="none"/>
+                        <children/>
+                      </grid>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
