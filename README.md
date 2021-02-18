@@ -12,11 +12,11 @@ MySQL实现了大部分自动化工作
 2. 购买时数据库进行应收金额，库存减少等操作
 
 
-![image](csgl/imgs/0D}O)9YA6LJWO]W}G7)5B87.png)
-![image](https://github.com/RCG222/csgl/blob/master/imgs/Y%7B%6053B~0ZQDPP%7D56S(3~CCG.png)
-![image](https://github.com/RCG222/csgl/blob/master/imgs/WSPPY%25(X%5B~440VJ9I%24ARM%5BY.png)
-![image](https://github.com/RCG222/csgl/blob/master/imgs/Q%7DS~1RBJ4V_91%7DK74KO~AX3.png)
-![image](https://github.com/RCG222/csgl/blob/master/imgs/K)V0%7B75VSH3TK%24QJ2T)U~C5.png)
-![image](https://github.com/RCG222/csgl/blob/master/imgs/9S64309895G9X7G%25)XEY(TH.png)
-![image](https://github.com/RCG222/csgl/blob/master/imgs/0D%7DO)9YA6LJWO%5DW%7DG7)5B87.png)
+![image](csgl/imgs/1.png)
+![image](csgl/imgs/2.png)
+![image](csgl/imgs/3.png)
+![image](csgl/imgs/4.png)
+![image](csgl/imgs/5.png)
+![image](csgl/imgs/6.png)
+![image](csgl/imgs/7.png)
 
